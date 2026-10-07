@@ -1,0 +1,7 @@
+odd affine tetrahedra: 896
+orbit sizes: {'O1': 64, 'O2': 192, 'O3': 192, 'O4': 192, 'O5': 192, 'O6': 64}
+candidate labelled domains: 80 {4: 64, 5: 16}
+candidate orbit sizes: [16, 64]
+T6 extension table: PASS
+C5/T6 explicit Z3 scheme: PASS
+universal K4 four-state scheme: PASS

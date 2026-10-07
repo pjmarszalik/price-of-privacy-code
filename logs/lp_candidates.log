@@ -1,0 +1,6 @@
+nonzero rows: 26  row triples: 2600
+weights (2/9, 1/3, 4/9)  leakage 1/9  from 6 triples
+weights (1/7, 2/7, 4/7)  leakage 1/7  from 6 triples
+weights (2/7, 2/7, 3/7)  leakage 1/7  from 3 triples
+weights (1/6, 1/3, 1/2)  leakage 1/6  from 6 triples
+Lemma catalogue (four weight candidates below 1/5): PASS

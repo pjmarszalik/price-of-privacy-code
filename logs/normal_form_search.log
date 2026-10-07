@@ -1,0 +1,40 @@
+# compiler: c++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+# python: 3.13.16, system: Linux x86_64
+# command: privacy/normal_form_search --paper
+# K4 exact normal-form evaluation
+O1 U UNSAT counts=298,320,320,320 triples=30515200
+O1 Q UNSAT counts=33,85,85,85 triples=238425
+O2 U UNSAT counts=298,320,320,256 triples=30515200
+O2 Q UNSAT counts=33,85,85,81 triples=238425
+O3 U UNSAT counts=298,320,256,256 triples=24412160
+O3 Q UNSAT counts=33,85,81,81 triples=227205
+O4 U UNSAT counts=320,320,320,256 triples=32768000
+O4 Q UNSAT counts=85,85,85,81 triples=614125
+O5 U UNSAT counts=256,320,320,256 triples=26214400
+O5 Q UNSAT counts=81,85,85,81 triples=585225
+O6 U SAT counts=256,320,256,256 triples=13225407 witness=161,141,190,253
+O6 Q UNSAT counts=81,85,81,81 triples=557685
+K4 CHECKS PASS
+# Published K3 external calibration
+PARITY G UNSAT counts=25,25,25 triples=15625
+PARITY E UNSAT counts=64,64,64 triples=262144
+PARITY U UNSAT counts=256,256,256 triples=16777216
+PARITY H SAT counts=36,36,36 triples=28001 witness=21,21,28
+PARITY Q SAT counts=81,81,81 triples=332161 witness=50,50,60
+F11 G UNSAT counts=25,25,25 triples=15625
+F11 E UNSAT counts=70,70,70 triples=343000
+F11 U UNSAT counts=320,320,320 triples=32768000
+F11 H UNSAT counts=40,40,40 triples=64000
+F11 Q UNSAT counts=85,85,85 triples=614125
+F13 G UNSAT counts=25,25,25 triples=15625
+F13 E UNSAT counts=70,64,64 triples=286720
+F13 U UNSAT counts=320,256,256 triples=20971520
+F13 H UNSAT counts=40,36,36 triples=51840
+F13 Q UNSAT counts=85,81,81 triples=557685
+F14 G UNSAT counts=25,25,25 triples=15625
+F14 E UNSAT counts=64,70,70 triples=313600
+F14 U UNSAT counts=256,320,320 triples=26214400
+F14 H UNSAT counts=36,40,40 triples=57600
+F14 Q UNSAT counts=81,85,85 triples=585225
+K3 CALIBRATION PASS
+ALL CHECKS PASS
