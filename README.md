@@ -1,7 +1,7 @@
 # The Price of Privacy: code and logs
 
 Code for the paper "The Price of Privacy: Randomness Complexity of
-Graph-Based Multi-Secret Sharing" by Piotr Marszalik (arXiv: TODO,
+Graph-Based Multi-Secret Sharing" by Piotr Marszalik (arXiv: http://arxiv.org/abs/2610.10002,
 IACR ePrint: TODO).
 
 In the short (IEEE) version of the paper, the search is Table IV and
